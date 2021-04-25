@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Profile"
+             x:Class="Kashmir.Views.Profile.ProfileView">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Logout" Order="Primary" Command="{ Binding Path=LogoutCommand, Mode=TwoWay }" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="{ Binding Path=User.Avatar, Mode=TwoWay }" 
+                   WidthRequest="50"
+                   HeightRequest="50" />
+
+            <Label Text="{ Binding Path=User.Avatar, Mode=TwoWay }" />
+
+            <Label Text="{ Binding Path=User.Email }"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rfO5k0z7yiCeK2RRDN24FdntKRMDfZJwzjpvwVt/ADta+RdM7/0v0LSvjFCCW2h3LevxyXvWbsNH2FP9Hqo6Xg==",
+  "success": true,
+  "projectFilePath": "G:\\Mobile\\MyProjects\\Kashmir\\Kashmir\\Kashmir.iOS\\Kashmir.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jorayev2494\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jorayev2494\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\jorayev2494\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\jorayev2494\\.nuget\\packages\\xamarin.forms\\4.8.0.1534\\xamarin.forms.4.8.0.1534.nupkg.sha512"
+  ],
+  "logs": []
+}

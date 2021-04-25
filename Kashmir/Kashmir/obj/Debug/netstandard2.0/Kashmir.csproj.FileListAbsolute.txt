@@ -1,0 +1,16 @@
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\bin\Debug\netstandard2.0\Kashmir.deps.json
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\bin\Debug\netstandard2.0\Kashmir.dll
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\bin\Debug\netstandard2.0\ref\Kashmir.dll
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\bin\Debug\netstandard2.0\Kashmir.pdb
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\App.xaml.g.cs
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Views\Auth\ForgotPasswordView.xaml.g.cs
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Views\Auth\LoginView.xaml.g.cs
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Views\Auth\RegisterView.xaml.g.cs
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Views\Profile\ProfileView.xaml.g.cs
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Kashmir.AssemblyInfoInputs.cache
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Kashmir.AssemblyInfo.cs
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Kashmir.csproj.CoreCompileInputs.cache
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\XamlC.stamp
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Kashmir.dll
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\ref\Kashmir.dll
+G:\Mobile\MyProjects\Kashmir\Kashmir\Kashmir\obj\Debug\netstandard2.0\Kashmir.pdb

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Kashmir.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!-- Colors -->
+            <Color x:Key="TextColor">#363636</Color>
+            <Color x:Key="ButtonColor">#FF0000</Color>
+            <!-- End Colors -->
+            
+            <!-- Button Style -->
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{ StaticResource Key=ButtonColor }" />
+                <Setter Property="CornerRadius" Value="50" />
+                <Setter Property="TextColor" Value="White" />
+            </Style>
+            <!-- End Button Style -->
+
+            <!-- Entry Style -->
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="TextColor" Value="{ StaticResource Key=TextColor }" />
+                <Setter Property="PlaceholderColor" Value="Silver" />
+                <Setter Property="PlaceholderColor" Value="#bebebe" />
+                <Setter Property="TextColor" Value="#000" />
+            </Style>
+            <!-- End Entry Style -->
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

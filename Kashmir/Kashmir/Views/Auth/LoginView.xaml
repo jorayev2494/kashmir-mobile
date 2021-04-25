@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Login"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Kashmir.Views.Auth.LoginView">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            
+        </ResourceDictionary>
+    </ContentPage.Resources>
+        
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Transparent" 
+                     VerticalOptions="Center" 
+                     HorizontalOptions="Center" Spacing="2">
+            <Image Source="logo" 
+                   WidthRequest="200"
+                   HeightRequest="100"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   Margin="0, 0, 0, 25"
+                   BackgroundColor="Transparent"/>
+
+            <ActivityIndicator IsRunning="{ Binding Path=IsLoading, Mode=TwoWay }"
+                               IsVisible="{ Binding Path=IsLoading, Mode=TwoWay }" />
+
+            <Label Text="Email" TextColor="#000" 
+                   FontSize="Body" />
+            <Entry Text="{ Binding Path=Email, Mode=TwoWay }"
+                   Placeholder="Email"
+                   WidthRequest="300"
+                   HeightRequest="48" 
+                   Style="{ StaticResource Key=EntryStyle }" />
+
+            <Label Text="Password" TextColor="#000" Margin="0, 20, 0, 0"
+                   FontSize="Body" />
+            <Entry Text="{ Binding Path=Password, Mode=TwoWay }"
+                   Placeholder="Password"
+                   IsPassword="True"
+                   WidthRequest="300"
+                   HeightRequest="48"
+                   Style="{ StaticResource Key=EntryStyle }" />
+            
+            <Button Text="Login"
+                    WidthRequest="300"
+                    HeightRequest="48"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0, 10"
+                    Command="{ Binding Path=LoginCommand, Mode=TwoWay }"
+                    Style="{ StaticResource Key=ButtonStyle }" />
+
+            <Button Text="Register"
+                    WidthRequest="300"
+                    HeightRequest="48"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0, 10"
+                    Command="{ Binding Path=GoToRegisterCommand, Mode=TwoWay }"
+                    Style="{ StaticResource Key=ButtonStyle }" />
+
+            <Button Text="Forgo Password"
+                    WidthRequest="300"
+                    HeightRequest="48"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Margin="0, 10"
+                    Command="{ Binding Path=GoToForgotPasswordCommand, Mode=TwoWay }"
+                    Style="{ StaticResource Key=ButtonStyle }" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
